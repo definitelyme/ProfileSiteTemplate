@@ -1,0 +1,12 @@
+﻿[
+    {
+        "lang": "en",
+        "tag": "lblTitle",
+        "value": "Title"
+    },
+    {
+        "lang": "es",
+        "tag": "lblTitle",
+        "value": "Titulo"
+    }
+]

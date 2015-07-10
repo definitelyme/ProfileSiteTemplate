@@ -1,0 +1,59 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <div class='col-md-9'>
+            <i id="logo" class='fa fa-th-large'></i>
+            <span id="title">Personal Web Site </span>
+        </div>
+        <div class="col-md-3">
+            <div class="social">
+                <media-social />
+            </div>
+            <div class="form-group" ng-controller="languageController">
+                <span style="color:#fff; font-size:16px;">Select Language</span>
+                <select id="selectLanguage">
+                    <option value="es">Spanish</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-2"></div>
+        <div class="col-md-10">
+            <div class="container-details">
+                <div class="row">
+                    <div class="md-col-12">
+                        <a href="#/profile">
+                            <div class="box">
+                                <i class="fa fa-user"></i><br />
+                                <span lblLang="lblProfile">PROFILE</span>
+                            </div>
+                        </a>
+                        <a href="#/resume">
+                            <div class="box">
+                                <i class="fa fa-file-text-o"></i><br />
+                                <span>RESUME</span>
+                            </div>
+                        </a>
+                        <a href="#/portfolio">
+                            <div class="box">
+                                <i class="fa fa-folder-o"></i><br />
+                                <span>PORTFOLIO</span>
+                            </div>
+                        </a>
+                        <a href="#/contact">
+                            <div class="box">
+                                <i class="fa fa-envelope-o"></i><br />
+                                <span>CONTACT</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+
+

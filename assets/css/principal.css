@@ -1,0 +1,74 @@
+.header{
+	background-color: #5cb85c;
+	height: 190px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header span#title{
+	font-size: 21px;
+	color:#fff;
+}
+
+.header i#logo{
+	font-size: 30px;
+	color:#fff;
+}
+
+.social i{
+	font-size:30px;
+	color:#fff;
+}
+
+.sub-frame{
+	background-color: #fff;
+	height: auto;
+	border: 1px solid #eee;
+	padding:5px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-details {
+}
+
+.container-details .box {
+    padding: 10px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align:center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container-details .box:hover {
+    background-color:#337AB7;
+}
+
+.container-details .box i {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom:3px;
+}
+
+.container-details .box span {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.content {
+}
+
+.content box {
+
+}
+.content .box #title {
+    font-size:36px;
+    font-weight:bold;
+    color:#337AB7;
+    display:block;
+}
+.content .box #sub-title {
+    font-size:12px;
+    color:#000;
+}

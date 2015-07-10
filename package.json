@@ -1,0 +1,31 @@
+{
+  "name": "ProfileSiteTemplate",
+  "version": "1.0.0",
+  "description": "ProfileSite to use as a template for your personal web page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express":"4.13.0",
+    "consolidate":"0.13.1",
+    "morgan":"1.6.0",
+    "body-parser":"1.13.1",
+    "ejs":"2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bernangabriel/ProfileSiteTemplate"
+  },
+  "keywords": [
+    "NodeJS",
+    "AngularJS",
+    "Bootstrap"
+  ],
+  "author": "Bernan G. Cordero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernangabriel/ProfileSiteTemplate/issues"
+  },
+  "homepage": "https://github.com/bernangabriel/ProfileSiteTemplate"
+}

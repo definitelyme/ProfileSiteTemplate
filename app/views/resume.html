@@ -1,0 +1,127 @@
+﻿<div class="content">
+    <div class="row">
+        <div class="col-md-2">
+            <i class="fa fa-file-text-o" style="font-size:125px;"></i>
+        </div>
+        <div class="col-md-10">
+            <div class="box">
+                <span id="title">Resume</span>
+                <hr />
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Education</h3>
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <ul class="nav nav-tabs" role="tablist" id="tabEducation">
+                                        <li role="education" class="active"><a href="#university" aria-controls="home" role="education" data-toggle="tab">University</a></li>
+                                        <li role="education"><a href="#courses" aria-controls="profile" role="education" data-toggle="tab">Courses</a></li>
+                                        <li role="education"><a href="#certifications" aria-controls="messages" role="education" data-toggle="tab">Certifications</a></li>
+                                    </ul>
+
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="university" style="padding:10px;">
+                                            <ul>
+                                                <li><p><b>[University Name], 2011-2015</b> Software Engineer. </p></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="courses" style="padding:10px;">
+                                            <ul>
+                                                <li><p><b>[School Name], 2015 </b> Developing ASP.Net Application.</p></li>
+                                                <li><p><b>[School Name], 2014 </b> Android Development.</p></li>
+                                                <li><p><b>[School Name], 2013 </b> Developing AngularJS.</p></li>
+                                                <li><p><b>[School Name], 2012 </b> MongoDB.</p></li>
+                                            </ul>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="certifications" style="padding:10px;">
+                                            <ul>
+                                                <li><p><b>Microsoft-EDX, 2015</b> Introduction to TypeScript Programming <a href="#" target="_blank">[Link To Validate]</a></p> </li>
+                                                <li><p><b>Valencia-EDX, 2015</b> Introduction to Android Development <a href="#" target="_blank">[Link To Validate]</a></p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Work</h3>
+                            <div class="panel panel-default">
+                                <div class="panel-body">
+                                    <ul class="nav nav-tabs" role="tablist" id="tabEducation">
+                                        <li role="work" class="active"><a href="#current" aria-controls="home" role="work" data-toggle="tab">Current</a></li>
+                                        <li role="work"><a href="#other1" aria-controls="other1" role="work" data-toggle="tab">Other</a></li>
+                                        <li role="work"><a href="#other2" aria-controls="messages" role="work" data-toggle="tab">Other</a></li>
+                                        <li role="work"><a href="#other3" aria-controls="messages" role="work" data-toggle="tab">Other</a></li>
+                                    </ul>
+
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="current" style="padding:10px;">
+                                            <p>
+                                                Here you put the description of your current position.
+                                            </p>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane active" id="other1" style="padding:10px;">
+
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane active" id="other2" style="padding:10px;">
+                                            
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane active" id="other3" style="padding:10px;">
+                                            
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Professional Skills</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Front-End</div>
+                                <div class="panel-body">
+                                    <skill name="HTML5/CSS3" value="90"></skill>
+                                    <skill name="Bootstrap" value="85"></skill>
+                                    <skill name="angularJS" value="90"></skill>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Back-End</div>
+                                <div class="panel-body">
+                                    <skill name=".NET (C#,VB)" value="100"></skill>
+                                    <skill name="ASP.NET MVC" value="95"></skill>
+                                    <skill name="JavaScript (jQuery, TypeScript, NodeJS)" value="100"></skill>
+                                    <skill name="Java (Android Apps)" value="90"></skill>
+                                    <skill name="SQL Server" value="80"></skill>
+                                    <skill name="MongoDB" value="70"></skill>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function () {
+    $('#tabsWork a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
+
+    $('#tabEducation a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+});
+</script>
