@@ -14,7 +14,7 @@ module.exports={
 		app.use(bodyParser.json());
 		app.use(morgan('dev'));
 
-		app.set('port', 8082);
+		app.set('port', process.env.PORT || 8080);
 		app.set('views','./views');
 		app.set('view engine','ejs');
 		app.engine('html',consolidate.ejs);
